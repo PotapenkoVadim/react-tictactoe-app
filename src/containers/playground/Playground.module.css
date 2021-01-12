@@ -1,0 +1,16 @@
+.playground {
+  width: 30%;
+  height: 300px;
+  margin: 5% auto;
+  color: #202020;
+}
+
+.cell {
+  width: 33%;
+  border: 1px solid #202020;
+  cursor: pointer;
+  text-align: center;
+}
+
+.disabled{ background-color: #909090; }
+.playground:not(.disabled) .cell:hover{ background-color: #e5e5e5; }

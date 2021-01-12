@@ -1,0 +1,14 @@
+.player-checkbox {
+  border: 1px solid #202020;
+  border-radius: 3px;
+  color: #202020;
+  padding: 5px 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checked {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #202020;
+}
